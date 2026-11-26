@@ -1,0 +1,14 @@
+name: gha-test2-on-selfhostedrunner
+
+on: 
+  push
+  
+jobs:
+  b16_first_job:
+    runs-on: self-hosted
+    
+    
+    steps:
+    
+      - name: Display
+        run: echo "Welcome to GitHubactions by batch16 champs"
