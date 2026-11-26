@@ -1,0 +1,9 @@
+name: Selfhostedjob
+on:
+ pull
+job
+ Myselfhosted
+ runs-on: self-hosted
+ steps:
+  -name: Display
+   run: echo: "Welcome to sample page"
