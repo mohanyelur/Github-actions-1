@@ -1,1 +1,10 @@
-This is my testing page.
+name: GHA-first
+on:
+ push
+jobs:
+ firstjob
+  runs-on : ubuntu:latest
+  
+  steps:
+   - name: message
+     run : echo "This my GHA code"
